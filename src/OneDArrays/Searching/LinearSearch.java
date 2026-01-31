@@ -1,6 +1,6 @@
-package Arrays.Searching;
+package OneDArrays.Searching;
 
-import Arrays.ArraysIO;
+import OneDArrays.ArraysIO;
 
 public class LinearSearch {
 

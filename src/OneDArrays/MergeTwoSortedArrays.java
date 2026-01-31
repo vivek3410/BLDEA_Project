@@ -1,4 +1,4 @@
-package Arrays;
+package OneDArrays;
 
 import java.util.Arrays;
 

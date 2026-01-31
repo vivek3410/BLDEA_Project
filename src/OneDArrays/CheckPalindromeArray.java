@@ -1,4 +1,4 @@
-package Arrays;
+package OneDArrays;
 
 
 public class CheckPalindromeArray {
@@ -11,7 +11,6 @@ public class CheckPalindromeArray {
             if(arr[start] != arr[end]){
                 return false;
             }
-
             start++;
             end--;
         }

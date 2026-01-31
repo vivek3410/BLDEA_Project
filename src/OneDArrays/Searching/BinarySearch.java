@@ -1,6 +1,6 @@
-package Arrays.Searching;
+package OneDArrays.Searching;
 
-import Arrays.ArraysIO;
+import OneDArrays.ArraysIO;
 
 public class BinarySearch {
     
@@ -26,7 +26,7 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
-        int[]arr = ArraysIO.input();
+        int[] arr = ArraysIO.input();
 
         int result = solution(arr, 2);
 

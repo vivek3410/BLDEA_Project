@@ -1,4 +1,4 @@
-package Arrays;
+package OneDArrays;
 
 public class CheckSortedArray {
 
