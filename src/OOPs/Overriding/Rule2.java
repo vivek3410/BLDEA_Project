@@ -4,7 +4,6 @@ class P{
 
     public Object m1(){
         System.out.println("Parent");
-
         return null;
     }
 }
