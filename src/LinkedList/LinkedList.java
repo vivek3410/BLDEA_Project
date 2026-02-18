@@ -70,9 +70,15 @@ public class LinkedList {
         System.out.println("null");
     }
 
+    public static void print(Node head){
+        Node curr = head;
+        while(curr != null){
+            System.out.print(curr.data + " -> ");
+            curr = curr.link;
+        }
 
-
-
+        System.out.println("null");
+    }
 
     // 5. Deletion
     // at end
