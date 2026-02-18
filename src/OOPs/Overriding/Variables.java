@@ -1,7 +1,6 @@
 package OOPs.Overriding;
 
 import java.util.ArrayList;
-import java.util.List;
 
 class Parent {
     int x = 888;
