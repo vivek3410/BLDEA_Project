@@ -102,7 +102,7 @@ public class LinkedList {
     public static LinkedList userInput(){
         Scanner sc = new Scanner(System.in);
         LinkedList list = new LinkedList();
-        System.out.println("Enter the Node size: ");
+        System.out.print("Enter the Node size: ");
         int size = sc.nextInt();
 
         for(int i = 1;i<=size;i++){
