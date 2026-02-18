@@ -33,7 +33,7 @@ public class ReverseSizeOfK {
         while(temp != null){
             // 1. finding kth node
             Node kthNode = getKthNode(temp, k);
-            
+
             if(kthNode == null){
                 if(prevNode != null){
                     prevNode.link = temp;
@@ -77,19 +77,7 @@ public class ReverseSizeOfK {
     
 
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
-
-        list.insert(1);
-        list.insert(2);
-        list.insert(3);
-        list.insert(4);
-        list.insert(5);
-        list.insert(6);
-        list.insert(7);
-        list.insert(8);
-        list.insert(9);
-        list.insert(10);
-        print(list.head);
+        LinkedList list = LinkedList.userInput();
 
         Node result = solution(list.head, 3);
 

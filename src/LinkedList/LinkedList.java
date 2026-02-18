@@ -1,5 +1,7 @@
 package LinkedList;
 
+import java.util.Scanner;
+
 public class LinkedList {
 
     Node head;
@@ -70,6 +72,8 @@ public class LinkedList {
 
 
 
+
+
     // 5. Deletion
     // at end
     // at specfied postion
@@ -93,6 +97,20 @@ public class LinkedList {
         }
 
         curr.link = curr.link.link;
+    }
+
+    public static LinkedList userInput(){
+        Scanner sc = new Scanner(System.in);
+        LinkedList list = new LinkedList();
+        System.out.println("Enter the Node size: ");
+        int size = sc.nextInt();
+
+        for(int i = 1;i<=size;i++){
+            System.out.print("Enter the element in list: " + i + " ");
+            list.insert(sc.nextInt());
+        }
+
+        return list;
     }
 
     
