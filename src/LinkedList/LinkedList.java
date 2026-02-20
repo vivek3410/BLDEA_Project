@@ -115,7 +115,6 @@ public class LinkedList {
             System.out.print("Enter the element in list: " + i + " ");
             list.insert(sc.nextInt());
         }
-
         return list;
     }
 

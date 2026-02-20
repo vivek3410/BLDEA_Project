@@ -6,7 +6,6 @@ public class CircularLL {
 
     public void insertAtEnd(int data){
         Node newNode = new Node(data);
-
         if(head == null){
             head = newNode;
             newNode.link = head;
@@ -63,7 +62,5 @@ public class CircularLL {
         cList.insertAtFirst(10);
 
         cList.print();
-
-        
     }
 }
